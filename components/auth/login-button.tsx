@@ -23,6 +23,10 @@ export const LoginButton = ({
     return <span>TODO: Implement Modal</span>;
   }
 
+  if(asChild){
+    return <span>TODO: Implement Child Functionality</span>
+  }
+
   return (
     <span onClick={onClick} className="cursor-pointer">
       {children}
